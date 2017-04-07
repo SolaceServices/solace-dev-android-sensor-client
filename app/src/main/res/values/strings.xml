@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AndroidSimpleSensorClient</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="text_title">Android SimpleSensor Client</string>
+
+    <string name="name">Android User</string>
+    <string name="id">androiduser</string>
+    <!-- MQTT Resources -->
+    <string name="mqtt_broker_url">tcp://35.165.12.105:9001</string>
+    <string name="mqtt_client_username">mqttuser1</string>
+    <string name="mqtt_client_password">mqttuser123</string>
+    <string name="mqtt_qos">0</string>
+    <string name="mqtt_pub_topic_register">T/Device/REGISTER</string>
+    <string name="mqtt_pub_topic_unregister">T/Device/UNREGISTER</string>
+    <string name="mqtt_pub_topic_sensor_info">T/Device/SENSORINFO</string>
+    <string name="mqtt_pub_topic_location">T/Device/LOCATION</string>
+    <string name="mqtt_sub_topic_prefix">T/Status/</string>
+    <string name="mqtt_sub_topic_all">T/Status/ALL</string>
+
+    <string name="location_update_interval">30000</string>
+</resources>
