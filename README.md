@@ -15,4 +15,6 @@ subscribe to all the messages
 The application can be deployed on any Android hardware. Here Iam running it on an Android
 Emulator from Android Studio.
 
-![](https://drive.google.com/file/d/0B0jPV0lBUb4hcnhNLWxnWHFTd2s/view)
+![](.README_images/96962c43.png)
+
+![](github.com/rnatara/AndroidSimpleSensorClient/blob/master/.README_images/96962c43.png)
