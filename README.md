@@ -25,6 +25,15 @@ To following components are required to test this client:
 ![](.README_images/81e8d82a.png)
 
 
+### **Get Started**
+
+```
+git clone https://github.com/SolaceLabs/XXX
+cd XXX
+./gradlew assemble
+cf push
+```
+
 ## Testing
 The following steps can be used to verify the Client connectivity to Solace router. Note that
 the (optional) backend server setup is not discussed here.
@@ -70,14 +79,6 @@ on the screen.
 
 ![](.README_images/4c56e933.png)
 
-### **Get Started**
-
-```
-git clone https://github.com/SolaceLabs/XXX
-cd XXX
-./gradlew assemble
-cf push
-```
 
 
 ## Contributing
