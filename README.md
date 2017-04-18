@@ -96,3 +96,12 @@ This project is licensed under the Apache License, Version 2.0. -
 See the [LICENSE](LICENSE) file for details.
 
 ## References
+
+Here are some links you will find interesting:
+
+* [The Solace Developer Portal](http://dev.solace.com/)
+* [Solace Labs](http://dev.solace.com/labs/)
+* [Android Development](https://developer.android.com/training/index.html)
+* [Getting started with Android development](http://www.vogella.com/tutorials/Android/article.html)
+* [Android Tutorial](https://www.tutorialspoint.com/android/)
+* [Using MQTT in Android mobile applications](http://dalelane.co.uk/blog/?p=1599) 
