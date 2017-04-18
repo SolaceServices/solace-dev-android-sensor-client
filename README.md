@@ -15,4 +15,4 @@ subscribe to all the messages
 The application can be deployed on any Android hardware. Here Iam running it on an Android
 Emulator from Android Studio.
 
-![](https://drive.google.com/file/d/0B0jPV0lBUb4hcnhNLWxnWHFTd2s/view?usp=sharing)
+![](https://drive.google.com/file/d/0B0jPV0lBUb4hcnhNLWxnWHFTd2s/view)
