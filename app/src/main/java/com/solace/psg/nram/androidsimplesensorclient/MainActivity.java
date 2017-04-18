@@ -82,14 +82,23 @@ public class MainActivity extends AppCompatActivity {
         // Initialize all session info
         si = new SessionInfo();
         si.ctx = this.getApplicationContext();
-        si.textName = (TextView) findViewById(R.id.textName);
-        si.textID = (TextView) findViewById(R.id.textID);
-        si.textUrl = (TextView) findViewById(R.id.textURL);
-        si.textClientname = (TextView) findViewById(R.id.textClientname);
-        si.textClientPassword = (TextView) findViewById(R.id.textClientPassword);
+        //si.textName = (TextView) findViewById(R.id.textName);
+        //si.textID = (TextView) findViewById(R.id.textID);
+        //si.textUrl = (TextView) findViewById(R.id.textURL);
+        //si.textClientname = (TextView) findViewById(R.id.textClientname);
+        //si.textClientPassword = (TextView) findViewById(R.id.textClientPassword);
         si.textStatus = (TextView) findViewById(R.id.textStatus);
         si.textInfo = (TextView) findViewById(R.id.textInfo);
         si.textInfo.setMovementMethod(new ScrollingMovementMethod());
+
+
+        si.Name = (EditText) findViewById(R.id.inName) ;
+        si.Id = (EditText) findViewById(R.id.inID) ;
+        si.Url = (EditText) findViewById(R.id.inURL) ;
+        si.Clientname = (EditText) findViewById(R.id.inClientname) ;
+        si.ClientPassword = (EditText) findViewById(R.id.inClientPassword) ;
+
+
 
 
         // ----------------------------------------------------------------------------------------

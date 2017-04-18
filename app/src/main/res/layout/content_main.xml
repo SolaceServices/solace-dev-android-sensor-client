@@ -106,7 +106,7 @@
         android:text="TextView"/>
 
     <EditText
-        android:id="@+id/inCientPassword"
+        android:id="@+id/inClientPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
@@ -122,7 +122,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/inCientPassword"
+        android:layout_below="@+id/inClientPassword"
         android:layout_marginTop="24dp"
         android:text="Button"/>
 
@@ -142,8 +142,8 @@
         android:layout_alignBottom="@+id/btnReset"
         android:layout_marginLeft="13dp"
         android:layout_marginStart="13dp"
-        android:layout_toEndOf="@+id/inCientPassword"
-        android:layout_toRightOf="@+id/inCientPassword"
+        android:layout_toEndOf="@+id/inClientPassword"
+        android:layout_toRightOf="@+id/inClientPassword"
         android:text="Button"/>
 </RelativeLayout>
 

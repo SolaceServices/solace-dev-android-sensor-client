@@ -8,8 +8,8 @@
     <string name="id">androiduser</string>
     <!-- MQTT Resources -->
     <string name="mqtt_broker_url">tcp://10.10.1.56:1883</string>
-    <string name="mqtt_client_username">mqttuser</string>
-    <string name="mqtt_client_password">mqttpass</string>
+    <string name="mqtt_client_username">default</string>
+    <string name="mqtt_client_password">default</string>
     <string name="mqtt_qos">0</string>
     <string name="mqtt_pub_topic_register">T/Device/REGISTER</string>
     <string name="mqtt_pub_topic_unregister">T/Device/UNREGISTER</string>

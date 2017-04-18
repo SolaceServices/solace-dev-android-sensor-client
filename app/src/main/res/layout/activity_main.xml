@@ -93,7 +93,7 @@
         android:layout_below="@+id/textClientname"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_toStartOf="@+id/inCientPassword"/>
+        android:layout_toStartOf="@+id/inClientPassword"/>
 
     <TextView
         android:id="@+id/textClientPassword"
@@ -105,7 +105,7 @@
         android:layout_toEndOf="@+id/inClientname"/>
 
     <EditText
-        android:id="@+id/inCientPassword"
+        android:id="@+id/inClientPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -150,7 +150,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/inCientPassword"
+        android:layout_below="@+id/inClientPassword"
         android:layout_marginTop="26dp"
         android:scrollbarAlwaysDrawHorizontalTrack="true"
         android:scrollbarAlwaysDrawVerticalTrack="true"

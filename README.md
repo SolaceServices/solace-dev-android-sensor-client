@@ -1,6 +1,6 @@
 # Android Sensor Solace Client
 
-This is a simple Android Client that connects to Solace Router via MQTT and pubish some sensor data.
+A simple Android Client that connects to Solace Router via MQTT and pubish some sensor data.
 
 ## Testing
 1. Run a subscriber to gather whats being published from the client
@@ -15,4 +15,4 @@ subscribe to all the messages
 The application can be deployed on any Android hardware. Here Iam running it on an Android
 Emulator from Android Studio.
 
-![](.README_images/96962c43.png)
+![](https://drive.google.com/file/d/0B0jPV0lBUb4hQzUxRXZUN29TWkE/view?usp=sharing)

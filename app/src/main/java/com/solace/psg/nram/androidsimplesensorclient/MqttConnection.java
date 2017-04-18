@@ -57,10 +57,10 @@ public class MqttConnection  {
         si = _si;
         Log.i(TAG, "MqttConnection initializing");
 
-
-        mqttBrokerUrl = si.ctx.getString(R.string.mqtt_broker_url);
-        mqttClientUser = si.ctx.getString(R.string.mqtt_client_username);
-        mqttClientPassword = si.ctx.getString(R.string.mqtt_client_password);
+        // Read the Values from User input TextView boxes
+        mqttBrokerUrl = si.Url.getText().toString();
+        mqttClientUser = si.Clientname.getText().toString();
+        mqttClientPassword = si.ClientPassword.getText().toString();
         mqttQos = Integer.parseInt(si.ctx.getString(R.string.mqtt_qos));
         mqttClientId = MqttClient.generateClientId();
 
