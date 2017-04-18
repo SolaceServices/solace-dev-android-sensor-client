@@ -28,10 +28,14 @@ To following components are required to test this client:
 ### **Get Started**
 
 ```
-git clone https://github.com/SolaceLabs/XXX
-cd XXX
+git clone https://github.com/rnatara/AndroidSimpleSensorClient
+cd AndroidSimpleSensorClient
 ./gradlew assemble
 cf push
+```
+If required, either copy your local.properties file or create one with:
+```
+echo "sdk.dir=<ANDROID_SDK_LIBRARY_PATH>" >> local.properties
 ```
 
 ## Testing
@@ -88,7 +92,7 @@ for submitting pull requests to us.
 
 ## Authors
 
-See the list of [contributors](https://github.com/SolaceLabs/XXX/graphs/contributors) 
+See the list of [contributors](https://github.com/rnatara/AndroidSimpleSensorClient/graphs/contributors) 
 
 
 ## License

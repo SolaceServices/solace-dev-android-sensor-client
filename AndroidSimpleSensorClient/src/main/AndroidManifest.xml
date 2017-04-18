@@ -23,6 +23,9 @@
             android:name="com.solace.psg.nram.androidsimplesensorclient.ResponseStatusService"
             android:exported="false" />
 
+        <!-- MQTT -->
+        <service android:name="org.eclipse.paho.android.service.MqttService" />
+
     </application>
 
     <!-- add permission to read GPS  -->
@@ -35,10 +38,7 @@
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
-    <!-- MQTT -->
-    <service android:name="org.eclipse.paho.android.service.MqttService" >
 
-    </service>
 
 
 
