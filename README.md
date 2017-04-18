@@ -25,18 +25,18 @@ To following components are required to test this client:
 ![](.README_images/81e8d82a.png)
 
 
-### **Get Started**
-
-If required, either copy your local.properties file or create one with:
-```
-echo "sdk.dir=<ANDROID_SDK_LIBRARY_PATH>" >> local.properties
-```
+### Get Started
 
 Pull the source and compile:
 ```
 git clone https://github.com/rnatara/AndroidSimpleSensorClient
 cd AndroidSimpleSensorClient
 ./gradlew assemble
+```
+
+If required, either copy your local.properties file or create one with:
+```
+echo "sdk.dir=<ANDROID_SDK_LIBRARY_PATH>" >> local.properties
 ```
 
 If everything goes well, you will see the following APKs
@@ -66,11 +66,13 @@ $ mosquitto_sub -h <solace-router-IP>  -p <mqtt-port> -t '#'  -u default -P <pas
 
 The application can be deployed on any Android hardware. Here Iam running it on an Android
 Emulator from Android Studio.
+
 ![](.README_images/96962c43.png)
 
 
 3.	Enter the Solace VMR/Appliance message interface IP, port, MQTT username, 
 password and Connect.  For this demo, Iam using a Solace VMR hosted on Amazon AWS
+
 ![](.README_images/589a5d73.png)
 
 
@@ -82,16 +84,20 @@ sensors on predefined topic. The subscriber receives the data and dumps on the s
 from light source to trigger light sensor data. Or you can move your hand close to screen 
 to trigger proximity sensor data. Below, on the Android simulator, I changed some sensor 
 values using Virtual Sensor Control panel:
+
 ![](.README_images/9662e599.png)
 
 
 6.	You will notice the subscriber receives these via Solace router and dumps the values 
 on the screen.
+
 ![](.README_images/4c56e933.png)
 
 
 ## References
+
 Here are some links you will find interesting:
+
 * [The Solace Developer Portal](http://dev.solace.com/)
 * [Android Development](https://developer.android.com/training/index.html)
 * [Getting started with Android development](http://www.vogella.com/tutorials/Android/article.html)
